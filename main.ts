@@ -6,10 +6,11 @@ import { mkdirSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 
 // The scene: a small Sunday-table ritual, Mum's quiet care,
-// Dad's quiet pride — and the tiny joke that keeps it going.
+// Dad's quiet pride — and the tiny joke that keeps it going:
+// he eats his first every time, so she'll keep doing it for decades.
 const SCENE = [
   "Mum still cuts the crusts off Dad's sandwiches, the way she did when he was six and scared of school.",
-  "He pretends not to notice — and eats his first every time, so she'll never stop.",
+  "He pretends not to notice — then eats his first, every time, so she'll keep doing it for the next forty years.",
 ].join("\n");
 
 function main(): void {
